@@ -1,7 +1,11 @@
 require 'net/pop'
 
-user_name = '***'
-user_password = '***'
+p "Enter your email: "
+user_name = gets.chomp
+
+p "Enter your password: "
+user_password = gets.chomp
+
 pop3_server = 'pop.mail.ru'
 
 Net::POP3.enable_ssl(OpenSSL::SSL::VERIFY_NONE)
