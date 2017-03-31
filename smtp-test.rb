@@ -35,4 +35,3 @@ smtp.start(domain, mailwithgmail, password, :login) do
 end
 
 p "Your Message - <<'#{subject}'>> SENT"
-
